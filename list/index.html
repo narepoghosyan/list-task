@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>List</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row p-2">
+			<div class="col-xl-1 col-lg-2 col-md-2 col-sm-3">
+				<h5 class="text-secondary mt-2">Experiments</h5>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+				<form class="mb-1">
+					<input type="search" name="search" class="input" placeholder="Search">
+				</form>
+			</div>
+			<div class="col-xl-6 col-lg-5 col-md-5 col-sm-2"></div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-3">
+				<button class="create">Create new</button>
+			</div>
+		</div>
+		<div class="main">
+			<table class="table bg-white">
+				<thead>
+					<colgroup>
+						<col class="nine" />
+						<col class="thirty" />
+						<col class="fifteen" />
+						<col class="fifteen" />
+						<col class="fifteen" />
+						<col class="sixteen" />
+					</colgroup>
+					<tr>
+						<th>Status</th>
+						<th>Name</th>
+						<th><i class="fas fa-caret-down"></i> Created</th>
+						<th>Last interacted</th>
+						<th>Completions</th>
+						<th class="text-right">Actions</th>
+					</tr>
+				</thead>
+	            <tbody>
+				    <tr>
+				    	<td>
+				    		<label class="switch mt-3">
+							    <input type="checkbox">
+							    <span class="slider round"></span>
+							</label>
+				    	</td>
+						<td>
+							<p class="font-weight-bold mb-0">01 September 2014</p>
+							<small><a href="#" class="text-dark">test.formisimo.com</a> <a href="#" class="info-circle" data-toggle="tooltip" data-placement="right" title="Just this URL"><i class="fas fa-info-circle"></i></a></small>
+						</td>
+						<td>
+							<p class="text-secondary">20 Dec 2014</p>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">25 Dec 2014</p>
+							<small class="text-secondary">17:47</small>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">0</p>
+							<small class="text-secondary">37 visits</small>
+						</td>
+						<td>
+							<a href="#" class="link font-weight-bold">Edit</a>
+							<button class="view">View</button>
+						</td>
+			        </tr> 
+			        <tr>
+				    	<td>
+				    		<label class="switch mt-3">
+							    <input type="checkbox">
+							    <span class="slider round"></span>
+							</label>
+				    	</td>
+						<td>
+							<p class="font-weight-bold mb-0">01</p>
+							<small><a href="#" class="text-dark">mysteriuos.com</a> <a href="#" class="info-circle" data-toggle="tooltip" data-placement="right" title="Just this URL"><i class="fas fa-info-circle"></i></a></small>
+						</td>
+						<td>
+							<p class="text-secondary">19 Dec 2014</p>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">24 Dec 2014</p>
+							<small class="text-secondary">17:47</small>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">57</p>
+							<small class="text-secondary">978 visits</small>
+						</td>
+						<td>
+							<a href="#" class="link font-weight-bold">Edit</a>
+							<button class="view">View</button>
+						</td>
+			        </tr>    
+			        <tr>
+				    	<td>
+				    		<label class="switch mt-3">
+							    <input type="checkbox">
+							    <span class="slider round"></span>
+							</label>
+				    	</td>
+						<td>
+							<p class="font-weight-bold mb-0">ONE FOR THE CAPS LOCK GUYS</p>
+							<small><a href="#" class="text-dark">you-guys-suck.com/if-the-caps-lock-light-is-o...</a> <a href="#" class="info-circle" data-toggle="tooltip" data-placement="right" title="Just this URL"><i class="fas fa-info-circle"></i></a></small>
+						</td>
+						<td>
+							<p class="text-secondary">01 Dec 2014</p>
+						</td>
+						<td>
+							<p class="text-danger mb-0"><i class="fas fa-exclamation-circle"></i> Never collected data</p>
+						</td>
+						<td>
+							
+						</td>
+						<td>
+							<a href="#" class="link font-weight-bold">Edit</a>
+							<a href="#" class="red-link text-danger font-weight-bold">Troubleshoot</a>
+						</td>
+			        </tr>    
+			        <tr>
+				    	<td>
+				    		<label class="switch mt-3">
+							    <input type="checkbox">
+							    <span class="slider round"></span>
+							</label>
+				    	</td>
+						<td>
+							<p class="font-weight-bold mb-0">Google test#1</p>
+							<small><a href="#" class="text-dark">google.com</a> <a href="#" class="info-circle" data-toggle="tooltip" data-placement="right" title="Just this URL"><i class="fas fa-info-circle"></i></a></small>
+						</td>
+						<td>
+							<p class="text-secondary">18 Nov 2014</p>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">08 Jan 2014</p>
+							<small class="text-secondary">00:12</small>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">12</p>
+							<small class="text-secondary">1,321 visits</small>
+						</td>
+						<td>
+							<a href="#" class="link font-weight-bold">Edit</a>
+							<button class="view">View</button>
+						</td>
+			        </tr>    
+			        <tr>
+				    	<td>
+				    		<label class="switch mt-3">
+							    <input type="checkbox">
+							    <span class="slider round"></span>
+							</label>
+				    	</td>
+						<td>
+							<p class="font-weight-bold mb-0">ONE FOR THE CAPS LOCK GUYS</p>
+							<small><a href="#" class="text-dark">you-guys-suck.com</a> <a href="#" class="info-circle" data-toggle="tooltip" data-placement="right" title="Just this URL"><i class="fas fa-info-circle"></i></a></small>
+						</td>
+						<td>
+							<p class="text-secondary">12 Nov 2014</p>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">08 Jan 2014</p>
+							<small class="text-secondary">00:12</small>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">1,178</p>
+							<small class="text-secondary">56,984 visits</small>
+						</td>
+						<td>
+							<a href="#" class="link font-weight-bold">Edit</a>
+							<button class="view">View</button>
+						</td>
+			        </tr>    
+			        <tr>
+				    	<td>
+				    		<label class="switch mt-3">
+							    <input type="checkbox">
+							    <span class="slider round"></span>
+							</label>
+				    	</td>
+						<td>
+							<p class="font-weight-bold mb-0">Anybody else really excited for Star Wa...</p>
+							<small><a href="#" class="text-dark">test.formisimo.com/hollaaaaaaaa</a> <a href="#" class="info-circle" data-toggle="tooltip" data-placement="right" title="Just this URL"><i class="fas fa-info-circle"></i></a></small>
+						</td>
+						<td>
+							<p class="text-secondary">26 Sep 2014</p>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">08 Jan 2014</p>
+							<small class="text-secondary">00:12</small>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">1,128,534</p>
+							<small class="text-secondary">235,600,198 visits</small>
+						</td>
+						<td>
+							<a href="#" class="link font-weight-bold">Edit</a>
+							<button class="view">View</button>
+						</td>
+			        </tr>    
+			        <tr>
+				    	<td>
+				    		<label class="switch mt-3">
+							    <input type="checkbox">
+							    <span class="slider round"></span>
+							</label>
+				    	</td>
+						<td>
+							<p class="font-weight-bold mb-0">and jurassic park</p>
+							<small><a href="#" class="text-dark">jurassicpark.com</a> <a href="#" class="info-circle" data-toggle="tooltip" data-placement="right" title="Just this URL"><i class="fas fa-info-circle"></i></a></small>
+						</td>
+						<td>
+							<p class="text-secondary">25 Sep 2014</p>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">08 Jan 2014</p>
+							<small class="text-secondary">00:12</small>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">0</p>
+							<small class="text-secondary">2 visits</small>
+						</td>
+						<td>
+							<a href="#" class="link font-weight-bold">Edit</a>
+							<button class="view">View</button>
+						</td>
+			        </tr>    
+			        <tr>
+				    	<td>
+				    		<label class="switch mt-3">
+							    <input type="checkbox">
+							    <span class="slider round"></span>
+							</label>
+				    	</td>
+						<td>
+							<p class="font-weight-bold mb-0">ONE FOR THE CAPS LOCK GUYS</p>
+							<small><a href="#" class="text-dark">you-guys-suck.com</a> <a href="#" class="info-circle" data-toggle="tooltip" data-placement="right" title="Just this URL"><i class="fas fa-info-circle"></i></a></small>
+						</td>
+						<td>
+							<p class="text-secondary">12 Sep 2014</p>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">05 Jan 2014</p>
+							<small class="text-secondary">00:12</small>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">17.000</p>
+							<small class="text-secondary">18,000,000 visits</small>
+						</td>
+						<td>
+							<a href="#" class="link font-weight-bold">Edit</a>
+							<button class="view">View</button>
+						</td>
+			        </tr>    
+			        <tr>
+				    	<td>
+				    		<label class="switch mt-3">
+							    <input type="checkbox">
+							    <span class="slider round"></span>
+							</label>
+				    	</td>
+						<td>
+							<p class="font-weight-bold mb-0">01</p>
+							<small><a href="#" class="text-dark">mysterious.com</a> <a href="#" class="info-circle" data-toggle="tooltip" data-placement="right" title="Just this URL"><i class="fas fa-info-circle"></i></a></small>
+						</td>
+						<td>
+							<p class="text-secondary">11 Sep 2014</p>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">05 Jan 2014</p>
+							<small class="text-secondary">00:12</small>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">19,512</p>
+							<small class="text-secondary">19,520 visits</small>
+						</td>
+						<td>
+							<a href="#" class="link font-weight-bold">Edit</a>
+							<button class="view">View</button>
+						</td>
+			        </tr>    
+			        <tr>
+				    	<td>
+				    		<label class="switch mt-3">
+							    <input type="checkbox">
+							    <span class="slider round"></span>
+							</label>
+				    	</td>
+						<td>
+							<p class="font-weight-bold mb-0">01 September 2014</p>
+							<small><a href="#" class="text-dark">test.formisimo.com/hollaaaaaaaa</a> <a href="#" class="info-circle" data-toggle="tooltip" data-placement="right" title="Just this URL"><i class="fas fa-info-circle"></i></a></small>
+						</td>
+						<td>
+							<p class="text-secondary">05 Sep 2014</p>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">04 Jan 2014</p>
+							<small class="text-secondary">00:12</small>
+						</td>
+						<td>
+							<p class="text-secondary mb-0">12</p>
+							<small class="text-secondary">37 visits</small>
+						</td>
+						<td>
+							<a href="#" class="link font-weight-bold">Edit</a>
+							<button class="view">View</button>
+						</td>
+			        </tr>       
+				</tbody>
+			</table>
+	    </div>
+	</div>
+</body>
+</html>
